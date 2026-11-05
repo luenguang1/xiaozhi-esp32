@@ -1,0 +1,13 @@
+{
+  "name": "s3-inmp441-max98357-ili9341",
+  "description": "ESP32-S3, INMP441(BCK4 WS5 SD6) + MAX98357(BCLK7 LRC8 DIN13) + ILI9341 SPI",
+  "chip": "esp32s3",
+  "flash_size": "16MB",
+  "psram": "octal",
+  "builds": [
+    {
+      "name": "default",
+      "sdkconfig": "sdkconfig.defaults"
+    }
+  ]
+}
